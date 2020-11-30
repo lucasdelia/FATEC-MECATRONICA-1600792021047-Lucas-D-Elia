@@ -1,23 +1,29 @@
+#Trabalho Final da Disciplina de L.T.P.C. 
+#Integrantes: Lucas D'Elia da Silva e Rafael Mendes de Barros
+#R.A. correspondentes: 1600792021047 / 1600792021019
+#Professor: Murilo Zanini de Carvalho
+#Criar um sistema de contas monetizadas com transações 
+#Data: 09/11/2020
 import random
 
 repeticao = 0
-
+#Email dos usuarios
 email1 = 'lucasdelia2014@hotmail.com'
 email2 = 'rafaelmendes_barros@hotmail.com'
 email3 = 'murilo.zcarvalho@fatec.sp.gov.br'
-
+#Senha dos usuarios
 senhaUser1 = 'lucas123'
 senhaUser2 = 'qualquer_coisa'
 senhaUser3 = 'senha'
-
+#ID dos usuarios
 USER1 = senhaUser1
 USER2 = senhaUser2
 USER3 = senhaUser3
-
+#Saldo dos usuarios
 saldoUser1 = 1000.00
 saldoUser2 = 250.00
 saldoUser3 = 3000.00
-
+#Ordem das respostas dadas pelo professor
 feedback = 'Sim'
 feedback1 = 'sim'
 feedback2 = 'sim'
