@@ -1,8 +1,8 @@
 #include <Servo.h>
 
-servo servo1;
+Servo servo1;
 
-int servo_pin = 3,
+int servo_pin = 3;
 
 void setup(){
     pinMode(servo_pin,OUTPUT);
@@ -12,7 +12,7 @@ void setup(){
 void loop(){
 
     for(int i=0; i>120; i++){
-        servo.write(i);
-        delay(500)
+        servo1.write(i);
+        delay(500);
     }
 }
