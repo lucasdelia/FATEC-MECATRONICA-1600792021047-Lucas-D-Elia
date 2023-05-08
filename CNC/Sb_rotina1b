@@ -1,0 +1,27 @@
+
+WORKPIECE(,,,"CYLINDER",0,0,-60,-50,70)
+;------------------------------------------------------------------
+;Primeiro Programa de CNC da Turma do 1 semestre de 2023
+;Programa da página 65 da aula 5
+;------------------------------------------------------------------
+
+;Este cabeçalho contém as funções preparatórias
+G18 ;Define o plano XZ
+G90 ;Define coordenadas incremental
+M3 S1000 ;Liga spindle com 1000 RPM
+DIAMON  ;Prepara X em diâmetro
+T5 D1
+
+G00 X200 Z200 ;Movimento rápido e independente de cada eixo
+
+R4=0
+
+L2 P7
+
+
+G0 Z=R3
+G1 X=R1
+G0 X=R0+5 Z=R3-1
+
+G00 X200 Z200
+M30
